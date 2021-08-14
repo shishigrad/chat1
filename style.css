@@ -1,0 +1,255 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: black;
+    border-bottom: 1px solid #00FF00;
+         box-shadow: 0px 0px 10px 0px #00FF00 ;
+    
+    
+}
+
+.button {
+    background-color: black;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: flex;
+}
+
+nav {
+    border-top: 1px solid #00FF00;
+    border-bottom: 1px solid #00FF00;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px 0px #00FF00 ;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    -webkit-text-stroke: 0.3px #00FF00;
+    
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+    -webkit-text-stroke: 0.4px #00FF00;
+    
+}
+
+.post-text {
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: black;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+    border: 1px solid #00FF00;
+    -webkit-text-stroke: 0.4px #00FF00;
+    box-shadow: 0px 0px 20px 0px #00FF00 ;
+}
+
+.article-but {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+    background-color: black;
+    border: 1px solid #00FF00;
+    -webkit-text-stroke: 0.4px #00FF00;
+    box-shadow: 0px 0px 20px 0px #00FF00 ;
+
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    margin: 0px 0px 20px 25px;
+    display: block;
+    width: 50px;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+    border-top: 1px solid #00FF00;
+    box-shadow: 0px 0px 20px 0px #00FF00 ;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-left: 5px;
+    color: black;
+    -webkit-text-stroke: 0.4px #00FF00;
+}
+
+.footer-text span {
+    -webkit-text-stroke: 0.4px #00FF00;
+    font-weight: bolder;
+    color: black;
+}
+aside{
+    position: fixed;
+    right: 0;
+    top: 230px;
+    background-color: black;
+    border-radius: 10px;
+    width: 70px;
+    height: 150px;
+    padding: 20px;
+    
+}
+aside:hover{
+ background-color: black;
+ border-radius: 100px;
+ border:1px solid #00FF00 ;
+ box-shadow: 0px 0px 20px 0px;
+
+}
+.pelmen{
+  position: absolute;
+    display: inline-block;
+    right: 20px;
+    top: 50px;  
+}
+.article-but:hover{
+   background-color: black;
+    border-radius: 100px; 
+    
+}
+
+.button:hover{
+   background-color: red; 
+   border-radius: 100px;
+   color: black;
+   
+   
+}
+.post-img{
+    opacity: 0.3;
+    
+} 
+.post-img:hover{
+   opacity: 10; 
+   border: 2px solid #00FF00;
+}
+.chebyrek{
+    
+    color: black;
+    -webkit-text-stroke: 0.4px #00FF00;
+    
+}
+.footer-logo{
+    margin-left: 550px;
+
+}
+.chebyrek:hover{
+    background-color: black;
+    color: white;
+}
+.logo:hover{
+    background-color: white;
+    border-radius: 21px;
+    border: 3px solid black;
+    
+}
+
+
+h2{
+    color: black;
+    text-align: center;
+    -webkit-text-stroke: 0.4px #00FF00;
+}
+
+.post-img1{
+    width: 400px;
+    height: 300px; 
+    opacity: 0.3;
+}
+.post-img1:hover{
+   opacity: 10; 
+   border: 3px solid white;
+}
+.logo1{
+    width: 70px;
+    margin-right: auto;
+    height: 80px;
+}
+.logo1:hover{
+   background-color: white;
+   border-radius: 21px; 
+   border: 3px solid black;
+}
+h3{
+    
+}
+.logo2{
+   width: 80px;
+    margin-right: 1000px;
+    height: 70px;
+    border-radius: 990px;
+
+}
+
+
+.logo1-footer{
+    width: 70px;
+    position: relative;
+    left: 600px;
+    height: 80px;
+}
+.logo2-footer{
+   width: 80px;
+    margin-left: auto;
+    height: 70px;
+    border-radius: 990px;
+}
+.logo-footer{
+    width: 80px;
+    position: relative;
+    left: 750px;
+    height: 70px;
+    border-radius: 965px;
+}
+.logo{
+    width: 70px;
+    height: 80px;
+    
+}
